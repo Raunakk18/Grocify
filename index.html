@@ -6,37 +6,38 @@
     <link href="./output.css" rel="stylesheet">
     <title>Grocify--</title>
 </head>
-<body class="container min-h-screen bg-[url('./assets/image.png')] bg-center bg-cover px-18 py-5">
+<body class="container min-h-screen bg-[url('./assets/image.png')] bg-center bg-cover px-4 sm:px-8 py-5 relative">
     <div>
-        <nav class="flex justify-between items-center" >
-            <img src="assets/logo.png" class="w-40 cursor-pointer">
-            <ul class="text-center">
-                <li class="list-none inline-block"> <a href="#"  class="text-white no-underline mx-3 text-lg font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full
-             after:bg-yellow-200 after:scale-x-0 after:origin-left after:transition-transform after:duration-300
-             hover:after:scale-x-100">Home</a></li>
-                <li class="list-none inline-block"> <a href="#" class="text-white no-underline mx-3 text-lg font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full
-             after:bg-yellow-200 after:scale-x-0 after:origin-left after:transition-transform after:duration-300
-             hover:after:scale-x-100">About</a></li>
-                <li class="list-none inline-block"> <a href="#" class="text-white no-underline mx-3 text-lg font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full
-             after:bg-yellow-200 after:scale-x-0 after:origin-left after:transition-transform after:duration-300
-             hover:after:scale-x-100 ">Features</a></li>
-                <li class="list-none inline-block"> <a href="#" class="text-white no-underline mx-3 text-lg font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full
-             after:bg-yellow-200 after:scale-x-0 after:origin-left after:transition-transform after:duration-300
-             hover:after:scale-x-100">Contact</a></li>
+        <nav class="flex flex-wrap justify-between items-center">
+            <img src="assets/logo.png" class="w-32 sm:w-40 cursor-pointer">
+            <ul class="text-center flex flex-wrap justify-center sm:justify-end">
+                <li class="list-none inline-block mx-2 sm:mx-3">
+                    <a href="#" class="text-white no-underline text-sm sm:text-lg font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:bg-yellow-200 after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100">Home</a>
+                </li>
+                <li class="list-none inline-block mx-2 sm:mx-3">
+                    <a href="#" class="text-white no-underline text-sm sm:text-lg font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:bg-yellow-200 after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100">About</a>
+                </li>
+                <li class="list-none inline-block mx-2 sm:mx-3">
+                    <a href="#" class="text-white no-underline text-sm sm:text-lg font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:bg-yellow-200 after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100">Features</a>
+                </li>
+                <li class="list-none inline-block mx-2 sm:mx-3">
+                    <a href="#" class="text-white no-underline text-sm sm:text-lg font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-full after:bg-yellow-200 after:scale-x-0 after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100">Contact</a>
+                </li>
             </ul>
-            <img src="assets/cart.png" class="w-8 cursor-pointer">
+            <img src="assets/cart.png" class="w-6 sm:w-8 cursor-pointer">
         </nav>
 
-        <div class="text-white mt-40 max-w-lg">
-            <h1 class="text-4xl font-semibold leading-normal">Groceries <br>delivery in <span class="font-light">15 mins</span></h1>
-            <p class="mt-1">
+        <div class="text-white mt-20 sm:mt-40 max-w-full sm:max-w-lg">
+            <h1 class="text-3xl sm:text-4xl font-semibold leading-normal text-center sm:text-left">Groceries <br>delivery in <span class="font-light">15 mins</span></h1>
+            <p class="mt-2 text-sm sm:text-base text-center sm:text-left">
                 Grocify-- is a grocery delivery app that allows you to order groceries online and have them delivered to your doorstep in just 15 minutes. With a wide selection of products, easy-to-use interface, and fast delivery, Grocify-- makes grocery shopping convenient and hassle-free.
             </p>
-            <div class="mt-10 w-auto h-max">
-            <a href="#" class="bg-yellow-300 rounded-3xl px-8  py-3 font-medium inline-block mr-4">Order now</a>
-            <a href="#">Download App</a>
+            <div class="mt-6 sm:mt-10 text-center sm:text-left">
+                <a href="#" class="bg-yellow-300 rounded-3xl px-6 sm:px-8 py-2 sm:py-3 font-medium inline-block mr-2 sm:mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent">Order now</a>
+                <a href="#" class="text-sm sm:text-base">Download App <span class="text-lg inline-block rotate-90">&#10148;</span></a>
             </div>
         </div>
+        <img src="assets/grocery-image.png" class="w-full sm:w-3/4 xl:w-1/2 mx-auto sm:mx-0 xl:absolute bottom-0 right-0 top-10 overflow-hidden">
     </div>
 </body>
 </html>
